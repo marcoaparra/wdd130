@@ -26,6 +26,7 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 nav, p, section, article {
@@ -56,6 +57,15 @@ h1 {
     opacity: 0.70;
     background-color: var(--accent1-color);
     color: #fff;
+}
+
+article {
+    text-align: center;
+    bottom: 140px;
+    position: relative;
+    color: red;
+    opacity: 0.7;
+    background-color: white;
 }
 
 .hero article img {
