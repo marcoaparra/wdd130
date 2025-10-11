@@ -71,5 +71,7 @@ article {
 .hero article img {
     float: right;
     width: 125px;
-    
+    border: 10px;
+    margin: 10px;
+    box-shadow: 4px;
 }
