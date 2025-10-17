@@ -75,3 +75,19 @@ article {
     border: 2px solid aqua;
     margin: 10px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 auto auto;
+}
