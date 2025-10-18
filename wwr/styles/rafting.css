@@ -105,9 +105,16 @@ header img {
 
 .section {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.paragraph {
+section img {
+    max-width: 250px;
+    max-height: 300px;
+    margin-top: 25px;
+}
+
+section h2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/4;
 }
