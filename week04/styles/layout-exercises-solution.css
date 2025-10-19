@@ -51,7 +51,9 @@ div {
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: span 6;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
 .three {
     margin: .25rem;

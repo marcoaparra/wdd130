@@ -119,9 +119,48 @@ section h2 {
     grid-column: 1/4;
 }
 
-.adventure {
+.section h2 {
     display: grid;
-    grid-row: 1fr 1fr 1fr 1fr 1fr;
-    justify-content:space-around;   
+    grid-column: 1/4;
 }
 
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content:space-around;
+}
+
+.adventure h2
+{
+    grid-column: span 5;
+}
+
+.miniimage {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #262653;
+    color: aqua;
+    border-radius: 5px;
+    width: 120px;
+    max-height: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.miniimage img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: initial;
+    font-size: 0.8rem;
+    color: aqua;
+    background-color: #262653;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}   
