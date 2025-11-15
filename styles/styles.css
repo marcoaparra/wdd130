@@ -32,6 +32,10 @@ aside h2 {
     left: 67px;
 }
 
+aside p {
+    margin: 1rem;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -44,7 +48,8 @@ nav a {
 }
 
 h1 {
-    color: steelblue
+    color: steelblue;
+    text-align: center;
 }
 
 main img {
@@ -54,11 +59,12 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1.5rem 0 1rem 1rem;
+    
 }
 
 p {
-    margin: 1rem;
+    margin: 3rem;
 }
 
 footer {
