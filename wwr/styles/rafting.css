@@ -1,6 +1,6 @@
 :root {
     --primary-color: aqua;
-    --secondary-color: red;
+    --secondary-color: white;
     --accent1-color: #262653;
     --accent2-color: black;
     --heading-font: "Times New Roman", "Georgina", serif;
@@ -47,6 +47,10 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero img {
