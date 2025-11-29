@@ -80,5 +80,5 @@ article {
     width: 125px;
     border: var(--primary-color);
     margin: 10px;
-    box-shadow: 0px solid #fff;
+    box-shadow: 3px var(--primary-color);
 }
