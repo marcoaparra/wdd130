@@ -98,6 +98,10 @@ article {
     color: #fff
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 125px;
@@ -138,7 +142,6 @@ article {
 }
 
 .miniimage {
-    display: inline-block;
     margin: 5px;
     padding: 5px;
     background-color: var(--accent1-color);
