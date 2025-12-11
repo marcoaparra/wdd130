@@ -197,8 +197,14 @@ th, td {
 
 .intenseblue {
     color: var(--primary-color);
+    opacity: 1;
+}
+
+.fallingfaster {
+    opacity: 1;
 }
 
 .goldenwaters {
     color: goldenrod;
+    opacity: 1;
 }
