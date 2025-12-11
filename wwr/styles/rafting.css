@@ -182,3 +182,23 @@ main section nav {
     text-align: center;
     border: var(--primary-color) solid 3px;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent1-color);
+    letter-spacing: 1px;
+}
+
+th, td {
+    border: 1px solid var(--accent1-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.intenseblue {
+    color: var(--primary-color);
+}
+
+.goldenwaters {
+    color: goldenrod;
+}
