@@ -156,7 +156,7 @@ article {
 footer {
     text-align: center;
     font-size: 1rem;
-    color: aqua;
+    color: var(--secondary-color);
     background-color: var(--accent1-color);
     padding: 10px;
     display: grid;
@@ -164,4 +164,12 @@ footer {
     align-items: center;
     justify-content: space-around;
     height: 100px;
+}
+
+.second a {
+    color: var(--secondary-color);
+}
+
+.section p {
+    text-align: center;
 }
